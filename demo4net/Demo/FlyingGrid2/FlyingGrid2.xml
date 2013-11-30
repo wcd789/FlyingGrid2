@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<flyingGrid2>
+  <table id="Fly2Test"   usePager="true" pageSize="10">
+    <tr templateName="head" align="center">
+      <th width="110px">选择</th>
+      <th width="110px">编号</th>
+      <th width="110px">姓名</th>
+      <th width="110px">年龄</th>
+      <th width="110px">学校</th>
+      <th width="110px">学号</th>
+    </tr>
+    <tr templateName="content">
+      <td name="Check" align="center" ><input type="checkbox"/> </td>
+      <td name="UserId" >{UserId}</td>
+      <td name="UserName">{UserName}</td>
+      <td name="Age">{Age}</td>
+      <td name="School">{School}</td>
+      <td name="NO"><input  value='{No}' type="text" /></td>
+    </tr>
+  </table>
+</flyingGrid2>

@@ -1,0 +1,113 @@
+﻿/*---------------------------
+ 名称：fyyingGrid2
+ 作者：weichengdong
+ 邮件: weichengdong2008@foxmail.com
+ ---------------------------*/
+.flyingGrid table
+{
+	font-size: 13px;
+	cursor: pointer;
+	border-collapse: collapse;
+}
+
+.flyingGridCover {
+	background-color: #faf7e3;
+}
+
+.flyingGrid td, th
+{
+	padding-left: 3px;
+	padding-right: 3px;
+	border: 1px solid #5e94f2;
+	height: 26px;
+}
+
+.flyingGrid tr input[type="checkbox"]
+{
+	width: 20px;
+}
+
+.flyingGrid tr:nth-child(even):not(.tail)
+{
+	background-color: #e4ebf7;
+}
+
+.flyingGrid tr.tail div
+{
+	margin-top: 4px;
+    margin-bottom:4px;
+    padding-top:3px;
+	width: 26px;
+	height: 20px;
+	display: block;
+	float: left;
+    border-style: dotted;
+    border-color: transparent;
+    border-width: 1px;
+}
+
+.flyingGrid tr.tail td
+{
+	border-left: 0;
+	border-right: 0;
+	border-style: dashed;
+}
+
+.flyingGrid tr.tail div.line
+{
+	background: url(../images/line.gif) no-repeat center;
+}
+
+.flyingGrid tr.tail div[name=tailfirst]
+{
+	background: url(../images/first.gif) no-repeat center;
+}
+
+.flyingGrid tr.tail div[name=tailprev]
+{
+	background: url(../images/prev.gif) no-repeat center;
+}
+
+.flyingGrid tr.tail div[name=tailnext]
+{
+	background: url(../images/next.gif) no-repeat center;
+}
+
+.flyingGrid tr.tail div[name=taillast]
+{
+	background: url(../images/last.gif) no-repeat center;
+}
+
+.flyingGrid tr.tail div[name=tailreload]
+{
+	background: url(../images/reload.png) no-repeat center;
+}
+
+.flyingGrid tr.tail div[name=loadgif]
+{
+        width:100px;
+    	background: url(../images/load.gif) no-repeat center;
+}
+
+.flyingGrid tr.tail div[name=tailinput]
+{
+	width: 40px;
+}
+
+.flyingGrid tr.tail div[name=tailMsg]
+{
+	width: 100px;
+}
+
+.flyingGrid tr.tail div[name=loadgif]
+{
+   display: none;
+}
+
+.flyingGrid tr.tail div[name=err]
+{
+   width : 130px;
+   display: none;
+	color: Red;
+	font-weight:600;
+}

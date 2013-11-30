@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <script src="../../FlyingGrid2/Scripts/jquery-1.4.1.js" type="text/javascript"></script>
+    <script src="../../FlyingGrid2/Scripts/flyingGrid2.js" type="text/javascript"></script>
+    <link href="../../FlyingGrid2/Css/flyingGrid2.css" rel="stylesheet" type="text/css" />
+    <title>通过ajax方式请求</title>
+</head>
+<body>
+    <input type="button" id="getGrid" value="点击获取表格" />
+    <div id="testGrid" grid="Fly2Test" class="flyingGrid">表格将显示在这里...</div>
+</body>
+<script type="text/javascript">
+    $("document").ready(function () {
+        $("#testGrid").flyingGrid2({
+            url: "AjaxCtrl"
+        });
+        $("#getGrid").click(function () {
+            $("#testGrid").LoadGrid();
+        });
+    })
+</script>
+</html>

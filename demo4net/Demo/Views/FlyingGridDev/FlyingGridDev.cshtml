@@ -1,0 +1,20 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>flyingGrid使用示例</title>
+    <script src="../../FlyingGrid2/Scripts/jquery-1.4.1.js" type="text/javascript"></script>
+    <script src="../../FlyingGrid2/Scripts/flyingGrid2.js" type="text/javascript"></script>
+    <link href="../../FlyingGrid2/Css/flyingGrid2.css" rel="stylesheet" type="text/css" />
+</head>
+    <body>
+     <div id="testGrid" grid="Fly2Test" class="flyingGrid">@Html.Raw(ViewBag.table) </div>
+    </body>
+         <script type="text/javascript">
+             $("document").ready(function () {
+
+                 $("#testGrid").flyingGrid2({
+                         url: "AjaxCtrl"                       
+                     });                
+             })
+        </script>
+</html>

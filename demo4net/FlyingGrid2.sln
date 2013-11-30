@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo", "Demo\Demo.csproj", "{E138691D-AB58-4A9F-BE8B-13C9F7E327F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlyingGrid2", "..\resource\flyingGrid2.Net\FlyingGrid2.csproj", "{E9983B8C-F973-49B5-99AA-7A24B8DCF889}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E138691D-AB58-4A9F-BE8B-13C9F7E327F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E138691D-AB58-4A9F-BE8B-13C9F7E327F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E138691D-AB58-4A9F-BE8B-13C9F7E327F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E138691D-AB58-4A9F-BE8B-13C9F7E327F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9983B8C-F973-49B5-99AA-7A24B8DCF889}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9983B8C-F973-49B5-99AA-7A24B8DCF889}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9983B8C-F973-49B5-99AA-7A24B8DCF889}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9983B8C-F973-49B5-99AA-7A24B8DCF889}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
